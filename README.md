@@ -28,7 +28,7 @@ Insert the programming adapter into the TL866 with the socket handles adjacent t
 
 ![Adapter when in use](images/adapter_in_use.jpg)
 
-If your are programming a 27C322 EPROMs,  move the switch to the **Position 27c322**, for 27C160 , 27C400 and 27C800 EPROMs in the **Position other**.
+If your are programming a 27C322 EPROMs, move the switch to the **Position 27c322**, for 27C160 , 27C400 and 27C800 EPROMs, switch must be in the **Position other**.
 
 ![Adapter mode](images/addapter_mode.jpg)
 
@@ -39,9 +39,9 @@ Launch the MiniPro software, select `AMD 27C4096 DIP40` device, deselect `Check 
 The EPROM can now be accessed as if it were a 27C4096 device, 512kB at a time, as configured by the DIP Switch:
 
 - **27C400:** program all 512kB in one pass.
-- **27C800:** program in 2 512kB passes.
-- **27C160:** program in 4 512kB passes.
-- **27C322:** program in 8 512kB passes.
+- **27C800:** program in 2 (two) 512kB passes.
+- **27C160:** program in 4 (four) 512kB passes.
+- **27C322:** program in 8 (eight) 512kB passes.
 
 Refere to the following table for DIP Switch configuration:
 
