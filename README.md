@@ -1,13 +1,5 @@
 # 27C322/160/800/400 EPROM Programming Adapter Series
 
-## License
-
-<div align="center"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Attribution-ShareAlike" style="border-width:0" src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" /></a><br /></div>
-
-This project is open hardware licensed under the Attribution-ShareAlike 4.0 (CC BY-SA 4.0) license. The full legal text of the license may be found in the LICENSE.md file in this repository. For more information about this license, please visit 
-the Creative Commons Foundation (https://creativecommons.org/licenses/by-sa/4.0/).
-
-
 ## Introduction
 
 The adapter converts the pin-outs of the parts listed below (which is similar to contemporary DIP-packaged mask ROMs) to 27C4096 pin-out as supported by the readily-available and cheap TL866 series of USB programmers.
