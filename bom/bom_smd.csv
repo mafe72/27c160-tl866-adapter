@@ -1,0 +1,7 @@
+Component,Part,References,Value,MPN,Quantity Per PCB,Datasheet
+1,BC327,Q1,MMBT3906,MMBT3906-7-F,1,https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/MMBT3906.pdf
+2,R-EU_0207_10,R1 R2 R3 R4 R5,10k,RC1206JR-0710KP,5,http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf
+3,SW_DIP-3,SW2,DIP,BD03,1,https://www.ckswitches.com/media/1331/bd.pdf
+4,MS22D16,SW1,MS22D16,JS202011CQN,1,https://www.ckswitches.com/media/1422/js.pdf
+5,27C4002,U1,27C4002,61302011121,2,https://katalog.we-online.de/em/datasheet/6130xx11121.pdf
+6,3M_248-3345,ZX1,3M_248-3345,248-1282-00-0602J,1,http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
