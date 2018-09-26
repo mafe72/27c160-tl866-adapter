@@ -18,8 +18,10 @@ The supported EPROM parts are:
 - **27C160:** 42-pin, 16Mbit (1M x 16-bit, 2M x 8-bit)
 - **27C322:** 42-pin, 32Mbit (2M x 16-bit, no 8-bit access mode)
 
+Top View
 ![top](images/front_th.png)
 
+Bottom View
 ![bottom](images/back_th.png)
 
 ## Usage
@@ -32,7 +34,7 @@ If your are programming a 27C322 EPROMs,  move the switch to the **Position 27c3
 
 ![Adapter mode](images/addapter_mode.jpg)
 
-Launch the MiniPro software, select `AMD 27C4096 DIP40` device, and deselect `Check ID`. You may also optionally set `Pulse Delay` to `50us` and reduce `VPP Voltage` to `12.50V`, depending on your EPROM's datasheet and programming success.
+Launch the MiniPro software, select `AMD 27C4096 DIP40` device, deselect `Check ID` and set `Pulse Delay` to `50us`. You may also optionally reduce `VPP Voltage` to `12.50V`, depending on your EPROM's datasheet and programming success.
 
 ![MiniPro Software Configuration](images/minipro.jpg)
 
@@ -43,7 +45,7 @@ The EPROM can now be accessed as if it were a 27C4096 device, 512kB at a time, a
 - **27C160:** program in 4 512kB passes.
 - **27C322:** program in 8 512kB passes.
 
-Refere to the foloowing table for DIP Switch configuration:
+Refere to the following table for DIP Switch configuration:
 
 ![DIP Switch configuration](images/dip_config.png)
 
