@@ -18,10 +18,12 @@ The supported EPROM parts are:
 - **27C160:** 42-pin, 16Mbit (1M x 16-bit, 2M x 8-bit)
 - **27C322:** 42-pin, 32Mbit (2M x 16-bit, no 8-bit access mode)
 
-Top View
+Top Side:
+
 ![top](images/front_th.png)
 
-Bottom View
+Bottom Side:
+
 ![bottom](images/back_th.png)
 
 ## Usage
