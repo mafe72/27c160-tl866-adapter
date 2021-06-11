@@ -38,9 +38,9 @@ The following instructions describe how to write a 27c160 EPROM.
 
 Split the source EPROM into 512Kbytes parts, in this case I use the HJSplit, however other programs can be used.
 
-Located the output path, for this example four files of 512Kbyte size with the extension ending on ".001" - ".004".
-
 ![HJSplit](images/hjsplit_512k.jpg)
+
+Located the output path, for this example four files of 512Kbyte size with the extension ending on ".001" - ".004".
 
 Launch the MiniPro software, select `AMD 27C4096 DIP40` device, deselect `Check ID` and set `Pulse Delay` to `50us`. You may also optionally reduce `VPP Voltage` to `12.50V`, depending on your EPROM's datasheet and programming success.
 
