@@ -70,3 +70,15 @@ If you suffer write or verify errors when programming, try these steps:
 3. Try adjusting `VPP Voltage` between `12.50V` and `13.50V`. Subjectively I have had greater success at the higher voltage and it gives headroom for voltage losses in transferring VPP through the adapter's logic.
 
 4. Programming errors will occur from time to time, and of course the chances increase the larger the device. It makes sense to invest in a UV eraser. These are available at low cost on Ebay for around $15-20. Most devices will be erased after 10 to 20 minutes under UV light.
+
+## Hardware change log
+
+R_20231123
+
+* Fix EDG-03 DIP Switch's correct polarity.
+* Uppdate revision number to R_20231123
+* Update Version number to 1.1
+
+V_20180919
+
+* Initial release.
