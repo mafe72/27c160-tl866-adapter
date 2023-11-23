@@ -76,7 +76,7 @@ If you suffer write or verify errors when programming, try these steps:
 R_20231123
 
 * Fix EDG-03 DIP Switch's correct polarity.
-* Uppdate revision number to R_20231123
+* Update revision number to R_20231123
 * Update Version number to 1.1
 
 V_20180919
