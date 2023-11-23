@@ -1,5 +1,7 @@
 # 27C322/160/800/400 EPROM Programming Adapter Series
 
+![GitHub issues](https://img.shields.io/github/issues-raw/mafe72/27c160-tl866-adapter?logo=Github&style=for-the-badge)
+
 ## Introduction
 
 This adapter converts the pin-outs of the parts listed below (which is similar to contemporary DIP-packaged mask ROMs) to 27C4096 pin-out as supported by the readily-available and cheap TL866 series of USB programmers.
