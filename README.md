@@ -55,7 +55,7 @@ The EPROM can now be accessed as if it were a 27C4096 device, 512kB at a time, a
 - **27C160:** program in 4 (four) 512kB passes.
 - **27C322:** program in 8 (eight) 512kB passes.
 
-Refere to the following table for DIP Switch configuration:
+Refer to the following table for DIP Switch configuration:
 
 ![DIP Switch configuration](images/dip_config.png)
 
@@ -63,13 +63,17 @@ Refere to the following table for DIP Switch configuration:
 
 If you suffer write or verify errors when programming, try these steps:
 
-1. Make sure the EPROM is fully blank before programming it (`Device -> Blank Check`). All EPROMs available today are second-hand 'pulls' and sellers aren't always careful when erasing before resale.
+1. Make sure the EPROM is fully blank before programming it (`Device -> Blank Check`). All EPROMs available today are second-hand 'pulls'; sellers aren't always careful when erasing before resale.
 
 2. Open and close the adapter's ZIF lever a few times, and reposition the EPROM squarely in the socket.
 
-3. Try adjusting `VPP Voltage` between `12.50V` and `13.50V`. Subjectively I have had greater success at the higher voltage and it gives headroom for voltage losses in transferring VPP through the adapter's logic.
+3. Try adjusting `VPP Voltage` between `12.50V` and `13.50V`. Subjectively, I have had greater success at the higher voltage, which gives headroom for voltage losses in transferring VPP through the adapter's logic.
 
-4. Programming errors will occur from time to time, and of course the chances increase the larger the device. It makes sense to invest in a UV eraser. These are available at low cost on Ebay for around $15-20. Most devices will be erased after 10 to 20 minutes under UV light.
+4. Programming errors will occur occasionally, and of course, the chances increase the larger the device. It makes sense to invest in a UV eraser. These are available at low cost on eBay for around $15-20. Most devices will be erased after 10 to 20 minutes under UV light.
+
+5. User [Maillouski](https://github.com/Maillouski/) reported that Xgpro v12.38 sets the default VDD Write value to 6.60V for the AT27C4096. To avoid programming issues, make sure you change this value to 3.30V.
+
+![IC Config Information VDD Write](images/vdd_3v30.png)
 
 ## Hardware change log
 
