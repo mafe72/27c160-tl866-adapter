@@ -69,11 +69,34 @@ If you suffer write or verify errors when programming, try these steps:
 
 3. Try adjusting `VPP Voltage` between `12.50V` and `13.50V`. Subjectively, I have had greater success at the higher voltage, which gives headroom for voltage losses in transferring VPP through the adapter's logic.
 
-4. Programming errors will occur occasionally, and of course, the chances increase the larger the device. It makes sense to invest in a UV eraser. These are available at low cost on eBay for around $15-20. Most devices will be erased after 10 to 20 minutes under UV light.
+4. Programming errors will occur occasionally, and of course, the chances increase the larger the device. It makes sense to invest in a UV eraser. These are available at a low cost on eBay for around $15-20. Most devices will be erased after 10 to 20 minutes under UV light.
 
-5. User [Maillouski](https://github.com/Maillouski/) reported that Xgpro v12.38 sets the default VDD Write value to 6.60V for the AT27C4096. To avoid programming issues, make sure you change this value to 3.30V.
+5. [Maillouski](https://github.com/Maillouski/), reported that Xgpro v12.38 sets the default VDD Write value to 6.60V for the AT27C4096. To avoid programming issues, make sure you change this value to 3.30V.
 
 ![IC Config Information VDD Write](images/vdd_3v30.png)
+
+6. [Tim aka BeepFixer](https://x.com/@beepfixer), shares his programming values for the **27C160** variants sourced from AliExpress.
+
+   The main difference: the UV window pad configuration. call them Types A, B, and C.
+    - **Type A**: 2x2 pads using only the center of the available window space 
+    - **Type B**: 2x2 pads using most of the available window space 
+    - **Type C**: 2x4 pads
+
+![IC Config Information VDD Write](images/m27c160_variants.jpg)
+
+**Testing Results**
+
+  **Type A**: 2/10 chips needed a little TLC-a tiny tweak outside recommended settings (changing 50us 100us) made them programmable and verifiable. Just to be sure, here's the full settings used: VPP Voltage: 13.50V / VCC Verify:. 5.00V / VDD Write: 5.00V / Puls Delay: 100us. Although did have success with other voltages too, as long as the Puls Delay was at 100 and not 50us.
+
+  **Type B**: 7/10 chips worked flawlessly- first try, recommended settings from Eladio (50us)
+
+  **Type C**: 1/10 chip failed spectacularly. It reads and erases just fine, and can write a single word. But after the single word right it refuses to write more than that. Likely an older, stricter variant; not broken, just a silicon diva. I tried over and over again with different settings and can simply not get it to write a full batch. 
+
+**Practical tips**
+
+   - Always verify after programming. 
+   - Try voltage differences as also mentioned in the adapter's GitHub.
+   - And keep of file writes; since you will be using the adapter to write an image split into 4 sections, it is easy to write the wrong file to the wrong bank (oopsie, yes guilty of writing file 3 to bank 3 and 4 myself once). So, do verify the EPROM on the destination device!
 
 ## Hardware change log
 
