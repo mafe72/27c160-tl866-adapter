@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This adapter converts the pin-outs of the parts listed below (which is similar to contemporary DIP-packaged mask ROMs) to 27C4096 pin-out as supported by the readily-available and cheap TL866 series of USB programmers.
+This adapter converts the pin-outs of the parts listed below (which are similar to contemporary DIP-packaged mask ROMs) to 27C4096 pin-out as supported by the readily-available and cheap TL866 series of USB programmers.
 
 The supported EPROMs parts are:
 - **27C400:** 40-pin, 4Mbit (256k x 16-bit, 512k x 8-bit)
