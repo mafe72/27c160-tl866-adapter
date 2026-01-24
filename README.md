@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=mafe72&project=27c160-tl866-adapter&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # 27C322/160/800/400 EPROM Programming Adapter Series
 
 ![GitHub issues](https://img.shields.io/github/issues-raw/mafe72/27c160-tl866-adapter?logo=Github&style=for-the-badge)
